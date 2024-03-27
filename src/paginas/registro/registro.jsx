@@ -60,14 +60,14 @@ export default function Registro() {
             </div>
           </div>
           <label className="block text-grey font-normal mt-3 mb-1 ml-1">
-            DNI
+            Rut
           </label>
           <input
             className="w-full px-3 text-[grey] border-[grey] py-2 border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
             key="DNI"
             type="DNI"
             name="DNI"
-            placeholder="DNI"
+            placeholder="Rut"
           />
           <div>
             <label className="block text-grey font-normal mt-3 mb-1 ml-1">
