@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <h1 className="bg-red-200">
       
-      Prueba de cambio para pull request
+      Prueba de cambio para pull request with new branch
     </h1>
   );
 }
