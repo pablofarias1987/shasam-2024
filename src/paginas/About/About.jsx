@@ -1,14 +1,14 @@
 import React from "react";
 import { Typography } from "keep-react";
 
-export default function AboutUs() {
+export default function About() {
   const NAME = "¿Quiénes Somos?";
   const NAME2 ="Nuestro Equipo"
   const parrafo1 =
-    "Somos una plataforma online terapéutica Shasam, con un modelo de carácter religioso, dedicada a la prevención, rehabilitación y adaptación social de jóvenes y adultos con problemas de drogodependencia, alcoholismo y marginación.";
-  const parrafo2 =
-    "Hemos desarrollado un intenso y dedicado trabajo en el tratamiento de personas con problemáticas de alcohol y drogodependientes en una fase online, con duración de 9 meses.";
-    const parrafo3 ="En SHASAM contamos con un equipo multidiciplinario compuesto por Psicóloga, Psiquiatra, monitores de apoyo, Asistente Social, Técnicos en Rehabilitación.";
+  "Somos una plataforma 100% online terapéutica llamada Shasam, con un modelo de carácter religioso, dedicada a la prevención, rehabilitación y adaptación social de jóvenes y adultos con problemas de drogodependencia, alcoholismo y marginación.";
+const parrafo2 =
+  "Hemos desarrollado un intenso y dedicado trabajo en el tratamiento de personas con problemáticas de alcohol y drogodependientes en una fase online, con duración de 9 meses.";
+  const parrafo3 ="En SHASAM contamos con un equipo multidiciplinario compuesto por Psicólog@s, Psiquiatras, Monitores de apoyo, Asistente social y Técnicos en rehabilitación.";
 
   return (
     <div>

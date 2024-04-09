@@ -11,10 +11,10 @@ export default function Registro() {
         <div className="flex flex-row items-center justify-between ">
           <div className="flex flex-col">
             <h2 className="text-4xl font-bold tracking-tight leading-9 text-black">
-              Create an
+              Crear una
             </h2>
             <h2 className="text-4xl font-bold tracking-tight leading-9 text-black">
-              account
+              Cuenta
             </h2>
           </div>
         </div>
@@ -22,21 +22,21 @@ export default function Registro() {
         <form className="font-normal mx-auto">
           <div className="mt-6">
             <label className="block text-gray-700 font-semibold mb-1">
-              Email
+              Correo
             </label>
             <input
               className="w-full px-3 text-[grey] border-[grey] py-2 border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
               key="email"
               type="email"
               name="email"
-              placeholder="example@gmail.com"
+              placeholder="ejemplo@gmail.com"
             />
           </div>
 
           <div className="grid grid-cols-2 gap-4 mt-2">
             <div>
               <label className="block text-gray-700 font-semibold mb-1">
-                Name
+                Nombres
               </label>
               <input
                 className="w-full px-3 py-2 text-[grey] border-[grey] border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
@@ -48,30 +48,30 @@ export default function Registro() {
             </div>
             <div>
               <label className="block text-gray-700 font-semibold mb-1">
-                Last Name
+                Apellidos
               </label>
               <input
                 className="w-full px-3 py-2 text-[grey] border-[grey] border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
                 key="last_name"
                 type="last_name"
                 name="last_name"
-                placeholder="Doe"
+                placeholder="Gonzales"
               />
             </div>
           </div>
           <label className="block text-grey font-normal mt-3 mb-1 ml-1">
-            Rut
+            RUT
           </label>
           <input
             className="w-full px-3 text-[grey] border-[grey] py-2 border-2 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
             key="DNI"
             type="DNI"
             name="DNI"
-            placeholder="Rut"
+            placeholder="15234265-1"
           />
           <div>
             <label className="block text-grey font-normal mt-3 mb-1 ml-1">
-              Password
+              Contraseña
             </label>
             <div className="flex relative mb-4">
               <input
@@ -85,7 +85,7 @@ export default function Registro() {
           </div>
           <div>
             <label className="block text-grey font-normal mt-3 mb-1 ml-1">
-              Reapet Password
+              Repetir-Contraseña
             </label>
             <div className="flex relative mb-4">
               <input
@@ -99,7 +99,7 @@ export default function Registro() {
           </div>
           <div className="mt-2 mb-4">
             <label className="block text-gray-700 font-semibold mb-1">
-              Profile picture
+              Mi Foto
             </label>
             <input
               className="w-full px-3 py-2 text-[grey] border-[grey] border-2 rounded-md focus:outline-none focus:ring focus:border-blue-500"
@@ -111,7 +111,7 @@ export default function Registro() {
             className={`w-full py-3 px-4 rounded-md font-medium bg-cyan-400 hover:bg-cyan-800 text-black`}
             type="submit"
           >
-            CREATE ACOUNT
+            Crear cuenta
           </button>
         </form>
       </div>

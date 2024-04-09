@@ -23,7 +23,7 @@ export const NavbarComponent = () => {
             className="lg:flex  hidden text-end items-end text-black text-base justify-end gap-5"
           >
             <Link to="">Tratamiento</Link>
-            <Link to="/aboutus">Quiénes somos</Link>
+            <Link to="/about">Quiénes somos</Link>
           </Navbar.Container>
           <Navbar.Collapse className="bg-sky-300" collapseType="sidebar">
             <Navbar.Container tag="ul" className="flex flex-col gap-5">
