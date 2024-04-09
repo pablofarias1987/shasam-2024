@@ -1,7 +1,7 @@
 export const CardsTratamiento = () => {
   return (
     <div className="overflow-x-auto font-medium ml-28 mt-10 text-sky-600 text-5xl">
-      Tratamiento
+      Tratamientos
       <div className="flex space-x-11 text-2xl text-center text-gray-600 mx-6 mt-6">
         <div>
           <img
