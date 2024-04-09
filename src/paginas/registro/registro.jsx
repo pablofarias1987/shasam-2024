@@ -5,7 +5,7 @@ export default function Registro() {
     <div className="grid md:grid-cols-2 m-5">
       <div className="border-4 bg-sky-500 rounded-3xl border-gray-500 mx-auto flex flex-col align-start p-5">
         <a href="/">
-          <img className="w-40 mx-auto" src="" alt="home" />
+          <img className="w-40 mx-auto" src="singin.png" alt="home" />
         </a>
 
         <div className="flex flex-row items-center justify-between ">
@@ -116,7 +116,7 @@ export default function Registro() {
         </form>
       </div>
 
-      <div className="hidden md:inline">
+      {/* <div className="hidden md:inline">
         <img
           className="w-full h-[125%] object-cover"
           src=""
@@ -124,7 +124,7 @@ export default function Registro() {
           width={1036}
           height={820}
         />
-      </div>
+      </div> */}
     </div>
   );
 }

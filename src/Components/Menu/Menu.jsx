@@ -44,7 +44,7 @@ export const NavbarComponent = () => {
               Registrate Gratis!
             </Button>
           </Link>
-          <Link to="/register">
+          <Link to="/singin">
             <Button
               className="border-2 rounded-xl text-xs hover:invert border-black "
               size="xs"

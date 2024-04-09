@@ -5,6 +5,7 @@ import Registro from "./paginas/registro/registro";
 import Home from "./paginas/Home/Home";
 import { Footer } from "./Components/footer/footer";
 import About from "./paginas/About/About";
+import Singin from "./paginas/singin/singin";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/register" element={<Registro />} />
+        <Route path="/singin" element={<Singin />} />        
       </Routes>
       <Footer />
     </div>
