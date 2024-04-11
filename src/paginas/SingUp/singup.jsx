@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Registro() {
+export default function SingUp() {
   return (
     <div className="grid md:grid-cols-2 m-5">
       <div className="border-4 bg-sky-500 rounded-3xl border-gray-500 mx-auto flex flex-col align-start p-5">
@@ -8,7 +8,7 @@ export default function Registro() {
           <img className="w-40 mx-auto" src="singin.png" alt="home" />
         </a>
 
-        <div className="flex flex-row items-center justify-between ">
+        <div className="flex flex-row items-centser justify-between ">
           <div className="flex flex-col">
             <h2 className="text-4xl font-bold tracking-tight leading-9 text-black">
               Crear una
@@ -102,7 +102,7 @@ export default function Registro() {
               Mi Foto
             </label>
             <input
-              className="w-full px-3 py-2 text-[grey] border-[grey] border-2 rounded-md focus:outline-none focus:ring focus:border-blue-500"
+              className="w-full px-3 py-2 text-[#e94040] border-[#e24646] border-2 rounded-md focus:outline-none focus:ring focus:border-blue-500"
               type="file"
               name="file"
             />

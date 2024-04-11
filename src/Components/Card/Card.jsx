@@ -2,7 +2,6 @@ import { Card } from "keep-react";
 
 export const CardComponent = () => {
  
-
     return (
         <>
             <Card className="border-2 rounded-lg h-96 w-80 border-black"> 

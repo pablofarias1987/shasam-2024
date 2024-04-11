@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Singin() {
+export default function SingIn() {
   return (
     <div className="grid md:grid-cols-2 m-5">
       <div className="border-4 bg-sky-500 rounded-3xl border-gray-500 mx-auto flex flex-col align-start p-5">

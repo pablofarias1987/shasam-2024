@@ -20,10 +20,10 @@ export const NavbarComponent = () => {
           <Navbar.Divider></Navbar.Divider>
           <Navbar.Container
             tag="ul"
-            className="lg:flex  hidden text-end items-end text-black text-base justify-end gap-5"
-          > <Link to="/">Inicio</Link>
+            className="lg:flex  hidden text-end items-end text-black text-base justify-end gap-5"> 
+            <Link to="/">Inicio</Link>
             <Link to="/about">Quiénes somos</Link>
-            <Link to="/programa">Programa</Link>
+            <Link to="/programa">Programas</Link>
             <Link to="/tratamientos">Tratamientos</Link>
             
           </Navbar.Container>
@@ -36,7 +36,7 @@ export const NavbarComponent = () => {
         </Navbar.Container>
 
         <Navbar.Container className="px-5 flex m-2 justify-start gap-5">
-          <Link to="/register">
+          <Link to="/signup">
             <Button
               className=" bg-black rounded-xl"
               size="xs"
@@ -48,7 +48,7 @@ export const NavbarComponent = () => {
           </Link>
           <Link to="/singin">
             <Button
-              className="border-2 rounded-xl text-xs hover:invert border-black "
+              className="border-2 rounded-xl text-xs bg-yellow-400 hover:invert border-black "
               size="xs"
               type="secondary"
               variant="outline"

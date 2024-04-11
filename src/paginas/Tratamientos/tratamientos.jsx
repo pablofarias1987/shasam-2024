@@ -1,4 +1,3 @@
-
 import { CardsTratamiento } from "../../Components/Cards Tratamientos/CardsTratamientos";
 import { Cards } from "../../Components/Cards planes/CardsPlanes";
 
