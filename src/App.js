@@ -2,11 +2,11 @@
 import { Routes, Route } from "react-router-dom";
 import { NavbarComponent } from "./Components/Menu/Menu";
 import Home from "./paginas/Home/Home";
-import { Footer } from "./Components/Footer/footer";
+import { Footer } from "./Components/footer/footer";
 import About from "./paginas/About/About";
 import SingIn from "./paginas/SingIn/singin";
 import Tratamiento from "./paginas/Tratamientos/tratamientos";
-import { Programa } from "./paginas/Programas/Programas";
+import { Programa } from "./paginas/Programas/programas";
 import SingUp from "./paginas/SingUp/singup";
 
 function App() {
